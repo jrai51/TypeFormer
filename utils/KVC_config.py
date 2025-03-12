@@ -17,7 +17,7 @@ configs.preprocessed_dir = configs.experiment_dir + 'preprocessed_data/'
 
 configs.log_dir = configs.experiment_dir + 'logs/'
 configs.config_log_dir = configs.experiment_dir
-configs.data_dir = '../../databases/KVC_data/'
+configs.data_dir = '../databases/KVC_data/'
 configs.dev_data_dir = configs.data_dir + '{}/{}_dev_set.npy'.format(configs.scenario, configs.scenario)
 configs.comparison_file = configs.data_dir + '{}_comparisons.txt'.format(configs.scenario)
 
